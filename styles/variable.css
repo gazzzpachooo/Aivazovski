@@ -1,4 +1,10 @@
 :root
 {
-    --bg-main: rgb(255, 255, 255); 
+    --bg-main: #ffffff; 
+
+    --bg-main-gary: #a6a6a6;
+
+    --font-color-gray: #a6a6a6;
+
+    --color-black: #070707;
 }

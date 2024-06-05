@@ -1,0 +1,29 @@
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: var(--font-color-gray);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: var(--color-black);
+   
+}
+
+.header{
+    padding-top: 25px;
+}
+
+.nav-list{
+    margin-bottom: 30px;
+}
+
+@media(max-width:480px){
+    .header{
+        display: none;
+    }
+}
