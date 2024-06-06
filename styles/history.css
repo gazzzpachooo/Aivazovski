@@ -1,0 +1,39 @@
+.history {
+    text-align: center;
+    color: var(--color-black);
+}
+
+.history-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 72px;
+}
+.history-img {
+    margin: 0 0 33px;
+    max-width: 950px;
+    height: 655px;
+    object-fit: cover;
+    
+}
+.history-discription {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 70px;
+}
+
+@media (max-width: 480px){
+
+    .history-img{
+        height: 479px;
+        max-width: 100%;
+        padding: 0 30px;
+    }
+
+    .history-discription {
+        margin: 0 0 79px;
+    }
+
+    .history-title {
+        margin: 0 0 59px;
+    }
+}
